@@ -8,12 +8,13 @@ This project aims to implement a simple XOR cipher on the Zybo Z7 FPGA developme
 This project implements a simple XOR cipher in VHDL for the Zybo Z7 board. Users can input a 4-bit key and data value, and the system performs XOR encryption/decryption. The result is displayed on a 7-segment display. This served as a final project for Embedded System Design.
 
 **Components:**
-Zybo Z7 Board
-PMODSSD Seven Segment Display
-Input Switches
-Output LEDs
-Micro USB Cable
-Windows PC with Vivado Installed
+
+- Zybo Z7 Board
+- PMODSSD Seven Segment Display
+- Input Switches
+- Output LEDs
+- Micro USB Cable
+- Windows PC with Vivado Installed
 
 **Functionality:**
 
