@@ -14,6 +14,7 @@ Micro USB Cable
 Windows PC with Vivado Installed
 
 **Functionality:**
+
 Key Input: Users input a 4-bit key using the input switches.
 Data Input: Users input a 4-bit data value using the input switches.
 XOR Operation: Pressing a button initiates the XOR operation between the key and data.
@@ -21,25 +22,30 @@ Display: The result is displayed on the 7-segment display.
 Reset: A reset button clears all stored values and resets the system.
 
 **Implementation Details:**
+
 Binary-to-Decimal Conversion: A function converts binary values to decimal for display.
 Multiplexing: The 7-segment display is multiplexed to display both tens and units digits.
 XOR Logic: The core encryption/decryption logic is implemented using XOR gates.
 User Interface: Input switches, output LEDs, and a reset button provide a user-friendly interface.
 
 **Troubleshooting:**
+
 Initial Challenges: Difficulties were encountered in implementing the binary-to-decimal conversion and multiplexing logic.
 Solutions: Through iterative testing and debugging, these issues were resolved by refining the code and understanding the underlying concepts.
 
 **Recommendations:**
+
 Debouncing: Implementing debouncing for the input buttons can prevent accidental multiple presses.
 Data Size: Increasing the data size to 8 bits can enhance security and allow for larger values.
 Advanced Encryption: Incorporating additional XOR operations or other cryptographic techniques can improve the strength of the cipher.
 Display Refresh Rate: Adjusting the refresh rate can optimize power consumption and display performance.
 
 **Conclusion:**
+
 This project demonstrates a practical application of VHDL in implementing a cryptographic system. By understanding the XOR algorithm, designing a user-friendly interface, and overcoming technical challenges, a functional XOR cipher was successfully developed for the Zybo Z7 board.
 
 **To Set Up and Run the Code:**
+
 _Prerequisites:_
 - Zybo Z7 Board
 - Vivado Design Suite
